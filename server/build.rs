@@ -92,6 +92,8 @@ mod ui {
             } else {
                 panic!("Directory specified in LOCAL_ASSETS_PATH is not found")
             }
+        } else {
+            panic!("Directory specified in LOCAL_ASSETS_PATH is not found")
         }
 
         // If UI is already downloaded in the target directory then verify and return
